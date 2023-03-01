@@ -23,7 +23,7 @@ This is a Django-based RESTful API for sending emails. It allows you to send ema
 3. Create a virtual environment and activate it.
 
     ```bash
-    python -m venv env
+    python3 -m venv env
     source env/bin/activate
     ```
 
@@ -35,7 +35,7 @@ This is a Django-based RESTful API for sending emails. It allows you to send ema
     docker-compose up -d
     ```
 
-7. Visit http://localhost:8000/email/ in your web browser to access the email API.
+7. Visit http://0.0.0.0:8000/email/ in your web browser to access the email API.
 
 
 ## API Endpoints
