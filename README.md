@@ -13,60 +13,39 @@ This is a Django-based RESTful API for sending emails. It allows you to send ema
 
     ```bash
     git clone git@github.com:Malik-Talha-Ahmed/Django-REST-EmailAPI.git
-    cd django-email-api
     ```
-
-
-2. Add these settings in the projects settings.py file:
+2. Navigate to the project directory:
 
     ```bash
-
-    ```
-**Note**: Replace EMAIL_HOST_USER and EMAIL_HOST_PASSWORD with your own email credentials.
-
-3. Run the Docker containers:
-
-    ```bash
-
+    cd Django-REST-EmailAPI
     ```
 
-4. Test the API by sending a POST request to http://localhost:8000/email/ with the required data in JSON format. For example:
+3. Create a virtual environment and activate it.
 
     ```bash
-
-    ```
-<!-- 
-2. Create a virtual environment and activate it:
-
-    ```bash
-    python3 -m venv env
+    python -m venv env
     source env/bin/activate
     ```
 
-3. Install the required packages:
+5. In the EmailAPI settings.py file replace `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD` with your own email credentials.
+
+6. Run the Docker containers:
 
     ```bash
+    docker-compose up -d
+    ```
 
-    ``` -->
-    
-<!-- 
-7. You can now send a POST request to the /email/ endpoint with the email details in JSON format:
-
-    ```bash
-
-    ``` -->
-
-
+7. Visit http://localhost:8000/email/ in your web browser to access the email API.
 
 
 ## API Endpoints
 
 ### POST /email/
-This endpoint sends an email with the provided data in JSON format. Required fields: to, subject, body, from.
+This endpoint sends an email with the provided data in JSON format. Required fields: to_email, subject, body, from_email.
 
 ## Response
 
-On success, the API returns a 200 OK response with the message "Email sent successfully".
+On success, the API returns a 200 OK response with the message "Email sent".
 
-On failure, the API returns a 400 Bad Request response with the error message "Email sending failed".
+On failure, the API returns a 400 Bad Request response with the error message or a 500 with a message "Email sending failed".
 
