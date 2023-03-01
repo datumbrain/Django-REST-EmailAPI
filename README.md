@@ -12,22 +12,10 @@ This is a Django-based RESTful API for sending emails. It allows you to send ema
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com//django-email-api.git
+    git clone git@github.com:Malik-Talha-Ahmed/Django-REST-EmailAPI.git
     cd django-email-api
     ```
-<!-- 
-2. Create a virtual environment and activate it:
 
-    ```bash
-    python3 -m venv env
-    source env/bin/activate
-    ```
-
-3. Install the required packages:
-
-    ```bash
-
-    ``` -->
 
 2. Add these settings in the projects settings.py file:
 
@@ -47,6 +35,20 @@ This is a Django-based RESTful API for sending emails. It allows you to send ema
     ```bash
 
     ```
+<!-- 
+2. Create a virtual environment and activate it:
+
+    ```bash
+    python3 -m venv env
+    source env/bin/activate
+    ```
+
+3. Install the required packages:
+
+    ```bash
+
+    ``` -->
+    
 <!-- 
 7. You can now send a POST request to the /email/ endpoint with the email details in JSON format:
 
