@@ -12,7 +12,7 @@ This is a Django-based RESTful API for sending emails. It allows you to send ema
 1. Clone the repository:
 
     ```bash
-    git clone git@github.com:Malik-Talha-Ahmed/Django-REST-EmailAPI.git
+    git clone git@github.com:datumbrain/Django-REST-EmailAPI.git
     ```
 2. Navigate to the project directory:
 
