@@ -19,15 +19,16 @@ This is a Django-based RESTful API for sending emails. It allows you to send ema
     ```bash
     cd Django-REST-EmailAPI
     ```
+    Open the project in your code editior.
 
-3. Create a virtual environment and activate it.
+3. Create a virtual environment in the project root directory and activate it.
 
     ```bash
     python3 -m venv env
     source env/bin/activate
     ```
 
-5. In the EmailAPI settings.py file replace `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD` with your own email credentials.
+5. In the project navigate to settings.py file (project path/EmailAPI/settings.py)and set the values of `SECRET_KEY`, `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD` with your own email credentials.
 
 6. Run the Docker containers:
 
