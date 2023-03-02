@@ -12,12 +12,12 @@ This is a Django-based RESTful API for sending emails. It allows you to send ema
 1. Clone the repository:
 
     ```bash
-    git clone git@github.com:datumbrain/Django-REST-EmailAPI.git
+    git clone git@github.com:datumbrain/django-rest-emailapi.git
     ```
 2. Navigate to the project directory:
 
     ```bash
-    cd Django-REST-EmailAPI
+    cd django-rest-emailapi
     ```
     Open the project in your code editior.
 
@@ -28,7 +28,7 @@ This is a Django-based RESTful API for sending emails. It allows you to send ema
     source env/bin/activate
     ```
 
-5. In the project navigate to settings.py file (project path/EmailAPI/settings.py)and set the values of `SECRET_KEY`, `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD` with your own email credentials.
+5. In the project navigate to settings.py file (project path/emailapi/settings.py)and set the values of `SECRET_KEY`, `EMAIL_HOST_USER` and `EMAIL_HOST_PASSWORD` with your own email credentials.
 
 6. Run the Docker containers:
 
@@ -36,7 +36,7 @@ This is a Django-based RESTful API for sending emails. It allows you to send ema
     docker-compose up -d
     ```
 
-7. Visit http://0.0.0.0:8000/email/ in your web browser to access the email API.
+7. Visit http://0.0.0.0:8000/email in your web browser to access the email API.
 
 
 ## API Endpoints
